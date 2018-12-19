@@ -11,5 +11,7 @@ separate fields so the Destition (f.e. ElastisSearch) can process the fields sep
 This lambda was created to support sysmon eventlogs to elasticsearch transfer.
 
 Sysmon (Microsoft) -> Windows EventLog -> AWS Kinesis -> ElasticSearch
-                                               ^
-                                            lambda
+
+
+This AWS lambda is to be used as a kinesis firehose lambda en needs firehose permissions to be able to handle the incoming records. 
+The output of the lamba is the same as the input but the json dict is dissected to seperate key values. 
