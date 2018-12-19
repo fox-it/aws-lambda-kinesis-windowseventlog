@@ -1,6 +1,7 @@
 # aws-lambda-kinesis-windowseventlog
-# Author Marthijn van den Brand
-# Fox-IT
+
+Author Marthijn van den Brand
+Fox-IT
 
 AWS lambda to transform the json from AWS kinesis agent to useful json documents for elasticsearch
 
